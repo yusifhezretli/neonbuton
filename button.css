@@ -1,0 +1,37 @@
+body{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #031321;
+
+font-family: consolas;
+}
+a{
+    position: relative;  /* element üçün istifadə olunan yerləşdirmə metodunun növünü təyin edir*/
+    display: inline-block;
+    padding: 25px 30px;  /*sığdırma*/
+    letter-spacing: 4px;/*herifleri aralama*/
+    color: #2196f3;
+    text-transform: uppercase; /*boyuk herf ile yazma*/
+   
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.2s;
+    overflow: hidden ;/*mellimeden sorus*/
+
+}
+a:hover{   /*elementlərin üzərinə siçan vurduqda onları seçmək üçün istifadə olunur.*/
+   
+    
+
+    color: #255784;
+    background: #0c75cc;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px
+    #2196f3
+    
+    
+    
+}
